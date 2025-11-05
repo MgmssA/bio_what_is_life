@@ -1,0 +1,1047 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.19">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Călin Aurel Drăgan">
+
+<title>quarto-input332ab00af39a2214</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="index_files/libs/clipboard/clipboard.min.js"></script>
+<script src="index_files/libs/quarto-html/quarto.js" type="module"></script>
+<script src="index_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="index_files/libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="index_files/libs/quarto-html/popper.min.js"></script>
+<script src="index_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="index_files/libs/quarto-html/anchor.min.js"></script>
+<link href="index_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="index_files/libs/quarto-html/quarto-syntax-highlighting-46eeb4c476de49ef7df495821a6125d9.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="index_files/libs/quarto-html/quarto-syntax-highlighting-dark-2e0ab3ffcb189ca14a0af92b40aeab37.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="index_files/libs/quarto-html/quarto-syntax-highlighting-46eeb4c476de49ef7df495821a6125d9.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="index_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="index_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="index_files/libs/bootstrap/bootstrap-0acb27bd87c979fac76ce5db0ba1c2ed.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="index_files/libs/bootstrap/bootstrap-dark-0acb27bd87c979fac76ce5db0ba1c2ed.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="index_files/libs/bootstrap/bootstrap-0acb27bd87c979fac76ce5db0ba1c2ed.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="index_files/libs/quarto-contrib/fontawesome6-6.7.2/all.min.css" rel="stylesheet">
+<link href="index_files/libs/quarto-contrib/fontawesome6-6.7.2/latex-fontsize.css" rel="stylesheet">
+<script defer="" src="https://cdn.jsdelivr.net/npm/katex@0.16.23/dist/contrib/mhchem.min.js" integrity="sha384-F2ptQFZqNJuqfGGl28mIXyQ5kXH48spn7rcoS0Y9psqIKAcZPLd1NzwFlm/bl1mH" crossorigin="anonymous"></script>
+<script src="index_files/libs/quarto-diagram/mermaid.min.js"></script>
+<script src="index_files/libs/quarto-diagram/mermaid-init.js"></script>
+<link href="index_files/libs/quarto-diagram/mermaid.css" rel="stylesheet">
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
+  <script>document.addEventListener("DOMContentLoaded", function () {
+ var mathElements = document.getElementsByClassName("math");
+ var macros = [];
+ for (var i = 0; i < mathElements.length; i++) {
+  var texText = mathElements[i].firstChild;
+  if (mathElements[i].tagName == "SPAN") {
+   katex.render(texText.data, mathElements[i], {
+    displayMode: mathElements[i].classList.contains('display'),
+    throwOnError: false,
+    macros: macros,
+    fleqn: false
+   });
+}}});
+  </script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css">
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="quarto-light">
+
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title"><p>
+<img src="style/mgmss_symbol_color.png" class="img-fluid" width="40">
+</p>
+<p>Kennzeichen des Lebens</p></h1>
+            <p class="subtitle lead">Was ist eigentlich das Leben?<br><small>Lerninhalte</small></p>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Autor:in</div>
+      <div class="quarto-title-meta-contents">
+               <p>Călin Aurel Drăgan </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Veröffentlichungsdatum</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">21. August 2025</p>
+      </div>
+    </div>
+    
+      <div>
+      <div class="quarto-title-meta-heading">Geändert</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date-modified">1. Oktober 2025</p>
+      </div>
+    </div>
+      
+    </div>
+    
+  <div>
+    <div class="abstract">
+      <div class="block-title">Zusammenfassung</div>
+      Die Biologie beschäftigt sich mit einem der komplexesten Organisationsformen von Materie: Leben. Dabei untersucht sie die Strukturen, Beziehungen und Prozessen des Lebendigen, die selbst mehrere Größenordnungen abdecken können. Dabei sind einige wenige fundamentale Eigenschaften von lebenden Systemen ausreichend, um die gesamte Biologie zu verstehen.
+    </div>
+  </div>
+  
+  </header><div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+  <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="99">
+    <h2 id="toc-title">Inhaltsverzeichnis</h2>
+   
+  <ul>
+  <li><a href="#was-ist-leben" id="toc-was-ist-leben" class="nav-link active" data-scroll-target="#was-ist-leben"><span class="header-section-number">1</span> Was ist Leben?</a>
+  <ul>
+  <li><a href="#definition-oder-implikation" id="toc-definition-oder-implikation" class="nav-link" data-scroll-target="#definition-oder-implikation"><span class="header-section-number">1.1</span> Definition oder Implikation?</a></li>
+  <li><a href="#elevator-pitch" id="toc-elevator-pitch" class="nav-link" data-scroll-target="#elevator-pitch"><span class="header-section-number">1.2</span> Elevator pitch</a></li>
+  </ul></li>
+  <li><a href="#stoffwechsel-und-gleichgewicht" id="toc-stoffwechsel-und-gleichgewicht" class="nav-link" data-scroll-target="#stoffwechsel-und-gleichgewicht"><span class="header-section-number">2</span> Stoffwechsel und Gleichgewicht</a>
+  <ul>
+  <li><a href="#was-brauchen-wir-wirklich" id="toc-was-brauchen-wir-wirklich" class="nav-link" data-scroll-target="#was-brauchen-wir-wirklich"><span class="header-section-number">2.1</span> Was brauchen wir wirklich?</a></li>
+  <li><a href="#was-passiert-damit" id="toc-was-passiert-damit" class="nav-link" data-scroll-target="#was-passiert-damit"><span class="header-section-number">2.2</span> Was passiert damit?</a></li>
+  <li><a href="#metabolismus---motor-des-lebens" id="toc-metabolismus---motor-des-lebens" class="nav-link" data-scroll-target="#metabolismus---motor-des-lebens"><span class="header-section-number">2.3</span> Metabolismus - Motor des Lebens</a></li>
+  <li><a href="#fliessgleichgewicht" id="toc-fliessgleichgewicht" class="nav-link" data-scroll-target="#fliessgleichgewicht"><span class="header-section-number">2.4</span> Fliessgleichgewicht</a></li>
+  </ul></li>
+  <li><a href="#homöostase-und-abgrenzung" id="toc-homöostase-und-abgrenzung" class="nav-link" data-scroll-target="#homöostase-und-abgrenzung"><span class="header-section-number">3</span> Homöostase und Abgrenzung</a></li>
+  <li><a href="#verhalten" id="toc-verhalten" class="nav-link" data-scroll-target="#verhalten"><span class="header-section-number">4</span> Verhalten</a></li>
+  <li><a href="#bauplan-und-funktionsplan" id="toc-bauplan-und-funktionsplan" class="nav-link" data-scroll-target="#bauplan-und-funktionsplan"><span class="header-section-number">5</span> Bauplan und Funktionsplan</a></li>
+  <li><a href="#reproduktion-und-vermehrung" id="toc-reproduktion-und-vermehrung" class="nav-link" data-scroll-target="#reproduktion-und-vermehrung"><span class="header-section-number">6</span> Reproduktion und Vermehrung</a></li>
+  <li><a href="#wachstum" id="toc-wachstum" class="nav-link" data-scroll-target="#wachstum"><span class="header-section-number">7</span> Wachstum</a></li>
+  <li><a href="#kurzfristige-und-langfristige-anpassung" id="toc-kurzfristige-und-langfristige-anpassung" class="nav-link" data-scroll-target="#kurzfristige-und-langfristige-anpassung"><span class="header-section-number">8</span> Kurzfristige und langfristige Anpassung</a></li>
+  </ul>
+</nav>
+</div>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+
+<!-- Initialize Fontawesome with any icon  -->
+<div class="hidden">
+<!-- Groundwork -->
+<p><span class="math display">
+\gdef\sub#1{_{\mathrm{#1}}}
+\gdef\unit#1{\mathrm{#1}}
+</span> <!-- Physical units --> <span class="math display">
+\gdef\celsius{\unit{°C}}
+\gdef\joule{\unit{J}}
+\gdef\kelvin{\unit{K}}
+\gdef\kilogram{\unit{kg}}
+\gdef\liter{\unit{L}}
+\gdef\milliliter{\unit{mL}}
+\gdef\meter{\unit{m}}
+\gdef\mole{\unit{mol}}
+\gdef\newton{\unit{N}}
+\gdef\pascal{\unit{Pa}}
+</span> <!-- Exponentiated units --> <span class="math display">
+\gdef\squaremeter{\meter^2}
+\gdef\cubicmeter{\meter^3}
+</span> <!-- Combined physical units --> <span class="math display">
+\gdef\newtonperkilogram{\frac{\newton}{\kilogram}}
+\gdef\joulepermole{\frac{\joule}{\mole}}
+\gdef\jouleperkilogram{\frac{\joule}{\kilogram}}
+\gdef\jouleperkelvin{\frac{\joule}{\kelvin}}
+\gdef\jouleperkilogramperkelvin{\frac{\joule}{\kilogram\,\kelvin}}
+\gdef\joulepermoleperkelvin{\frac{\joule}{\mole\,\kelvin}}
+</span></p>
+</div>
+<div class="hidden">
+
+</div>
+<section id="was-ist-leben" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="was-ist-leben"><span class="header-section-number">1</span> Was ist Leben?</h2>
+<p>Lebendiges unterscheidet sich vom Unlebendigen. Wir Menschen können im Alltäglichen ohne weiteres zwischen Lebendigem und Unlebendigem unterscheiden. Unsere Sinne täuschen uns selten aber bedeutet das, dass wir wirklich tiefgreifend wissen was Leben heißt?</p>
+<div id="fig-life-vs-inorganics" class="quarto-layout-panel">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-life-vs-inorganics-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-layout-row quarto-layout-valign-bottom">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="images/american-jael-rLoAjStfZ_4-unsplash.jpg" class="img-fluid figure-img"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="images/kevin-yates--MGo5XlSdXA-unsplash.jpg" class="img-fluid figure-img"></p>
+</div>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-life-vs-inorganics-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;1: Wir erkennen mit Leichtigkeit was lebendig und was unlebendig ist. Auf diesem Fotos erkennen wir es fast schon instinktiv. Auch wenn der Eindruck manchmal trügt, haben wir Menschen eine recht gute Vorstellung vom Leben. Selbst höhere Tiere scheinen recht gut zwischen Leben und Tod zu unterscheiden.
+</figcaption>
+</figure>
+</div>
+<section id="definition-oder-implikation" class="level3" data-number="1.1">
+<h3 data-number="1.1" class="anchored" data-anchor-id="definition-oder-implikation"><span class="header-section-number">1.1</span> Definition oder Implikation?</h3>
+<p>Scheinbar Unlebendiges entpuppt sich manchmal als Leben und umgekehrt. Deshalb hat die Biologie und andere Wissenschaften über die Zeit eine Vorstellung vom Leben entwickelt, die praktische als auch theoretische Arbeit ermöglicht, ohne in ergebnislosen und nicht endenden philosophischen Diskussionen abzugleiten. Es ist nicht die einzige mögliche Vorstellung des Lebens aber eine für Naturwissenschaften recht greifbare.</p>
+<p>Es gibt keine Definition von Leben, die das Wort oder die Bedeutung aufklärt. Vielmehr ist die Vorstellung vom Leben eine Implikation. Eine Implikation funktioniert so: wenn eine Bedingung erfüllt ist, dann ist die Schlussfolgerung richtig. Für das Leben heißt das: wenn alle Kennzeichen des Lebens erfüllt werden, dann können wir etwas als Leben bezeichnen.</p>
+</section>
+<section id="elevator-pitch" class="level3" data-number="1.2">
+<h3 data-number="1.2" class="anchored" data-anchor-id="elevator-pitch"><span class="header-section-number">1.2</span> Elevator pitch</h3>
+<p>Diesen Abschnitte solltet ihr im Schlaf wiedergeben können.</p>
+<p>Leben ist eine Organisationsform von Materie. Diese gewinnt durch den <strong>Metabolismus</strong> Baustoffe und Energie für die meisten Lebensprozesse. Dabei operiert das Leben im <strong>Fliessgleichgewicht</strong>. Damit der Metabolismus möglichst effizient abläuft, schützt sich das Leben durch eine <strong>Membran</strong>. Dadurch ist die kleinste Einheit des Lebens eine von einer Membran umhüllten <strong>Zelle</strong>. Die Zelle hält die inneren Bedingungen durch <strong>Homöostase</strong> aufrecht. Das <strong>Verhalten</strong> dient der Interaktion mit der Umwelt und anderen Lebewesen. Es stellt ebenfalls sicher, dass die inneren Lebensvorgänge möglichst störungsfrei ablaufen. Darunter fällt auch die <strong>Reproduktion</strong>, die die Weitergabe der <strong>genetischen Information</strong> ermöglicht. Bei der Reproduktion muß es <strong>Wachstum</strong> geben damit genügend Biomasse an die Tochterwesen vererbt und die <strong>genetische Information</strong> weitergegeben werden kann. Das Leben passt sich auf eine <strong>individuelle Art</strong> und durch <strong>Evolution</strong> an.</p>
+<p>Im den folgenden Abschnitten gehen wir auf einige Details der <strong>Kennzeichen des Lebens</strong> ein.</p>
+</section>
+</section>
+<section id="stoffwechsel-und-gleichgewicht" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="stoffwechsel-und-gleichgewicht"><span class="header-section-number">2</span> Stoffwechsel und Gleichgewicht</h2>
+<p>Alle Lebewesen müssen etwas von außerhalb ihres eigenen Körpers aufnehmen und geben etwas ab. Was hinein geht wird irgendwie in das was hinaus geht umgewandelt.</p>
+<div class="cell" data-fig-height="3" data-layout-align="default">
+<div class="cell-output-display">
+<div id="fig-metabolism-equilibrium" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-metabolism-equilibrium-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-metabolism-equilibrium">flowchart LR
+    Rein@{shape: circle} --&gt; Leben@{shape: circ, label: "Leben"}
+    Leben --&gt; Raus@{shape: circle}
+
+    style Rein fill:#F4F4E7,stroke:#F4F4E7;
+    style Leben stroke:#F4F4E7;
+    style Raus fill:#F4F4E7,stroke:#F4F4E7;
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-metabolism-equilibrium-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;2: Leben braucht irgendetwas was es zu etwas anderem umsetzt. Dieser Stoffwechsel ist einer der fundamentalen Eigenschaften des Lebens.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>Dieser Prozess heißt <strong>Stoffwechsel</strong> oder <strong>Metabolismus</strong>. Aber was geht denn hinein? Was ist das Mindeste was jedes Lebewesen braucht?</p>
+<section id="was-brauchen-wir-wirklich" class="level3" data-number="2.1">
+<h3 data-number="2.1" class="anchored" data-anchor-id="was-brauchen-wir-wirklich"><span class="header-section-number">2.1</span> Was brauchen wir wirklich?</h3>
+<p>Überlegen wir, was wir zu uns nehmen in der Reihenfolge der Wichtigkeit für das Überleben:</p>
+<ol>
+<li>Luft</li>
+<li>Wasser</li>
+<li>Nahrung</li>
+</ol>
+<p>Alle oben genannten Dinge sind Mischungen aus Stoffen und Elementen. Aus diesen wird nur ein Teil dem Metabolismus zugeführt.</p>
+<p>Aus der Luft benötigen wir den Sauerstoff <span class="math inline">\ce{O2}</span> zur Energiegewinnung. Aber die übrigen Bestandteile wie Stickstoff <span class="math inline">\ce{N2}</span> oder Argon <span class="math inline">\ce{Ar}</span> atmen wir unverändert aus. Das Wasser, dass wir durstig in uns hinein schütten, kommt in der gleichen Form wieder aus uns heraus. Wasser beteiligt sich nur minimal am Metabolismus. Jetzt bleibt noch die Nahrung übrig. Hier sieht es schon anders aus. Wir nehmen aus der Nahrung nur die Bestandteile auf, die einen oder mehrere der folgenden Verwendungszwecke haben:</p>
+<ol>
+<li>Energiegewinnung,</li>
+<li>Baustoff,</li>
+<li>Essentiell für den Metabolismus.</li>
+</ol>
+<p>Die Stoffe, die wir aus der Nahrung extrahieren heißen <strong>Nährstoffe</strong>. Die <strong>essentiellen</strong> Nährstoffe; das sind diejenigen Nährstoffe, die unser Körper nicht selbst synthetisieren kann. Der Begriff <em>Nährstoff</em> ist jedoch etwas ungenau. Zum Beispiel gelten einige Ionen<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> als Makronährstoffe und Mikronährstoffe, obwohl sie nicht durch den Stoffwechsel verändern sondern nur teilnehmen.</p>
+<p>Alle Pflanzen, alle pflanzenartigen und alle pflanzenähnlichen Organismen synthetisieren ihre eigene Nahrung durch die <strong>Photosynthese</strong>. Sie synthetisieren allerdings nur den Teil, der zur Energiegewinnung und als Baustoff genutzt wird. Die essentiellen Nährstoffe wie Ionen werden aus der Erde durch Wurzeln oder andere Organe aufgenommen.</p>
+</section>
+<section id="was-passiert-damit" class="level3" data-number="2.2">
+<h3 data-number="2.2" class="anchored" data-anchor-id="was-passiert-damit"><span class="header-section-number">2.2</span> Was passiert damit?</h3>
+<p>Luft enthält verschiedene Gase, die zuerst alle innerhalb des Organismus als gelöste Gase vorliegen. Jedoch wird nur <span class="math inline">\ce{O2}</span> für den Metabolismus gebraucht. Höheres Leben besitzt für <span class="math inline">\ce{O2}</span> spezifische Transportmechanismen, die es überall verteilen wo es gebraucht wird.</p>
+<p>Wasser ist <em>das</em> <strong>Lösemittel</strong> des Lebens. Alles spielt sich im Wasser ab und fast alle Bestandteile des Lebens sind wasserlöslich. Das liegt daran, dass das Leben im Wasser entstanden ist. Alle Einzeller und alle höheren Lebewesen verfügen über ein Pool an innerem Wasser.</p>
+<p>Nur die einfachsten Organismen wie Bakterien nehmen Nahrung in molekularer Form auf. Wenn Du eine gekochte Kartoffel isst, wird sie kaum in dieser Form durch deinen Körper und deinem Blut transportiert. Alle höheren Lebewesen müssen aufgenommene Nahrung zuerst mechanisch zerkleinern. Danach werden die kleinen Bruchstücke chemisch zerlegt. Das erledigen <strong>Enzyme</strong>; winzige Maschinen, die die Nahrung in immer kleinere Moleküle spalten. Schließlich werden die kleinsten wasserlöslichen Moleküle innerhalb des Organismus verteilt.</p>
+<div class="cell" data-fig-height="3" data-layout-align="default">
+<div class="cell-output-display">
+<div id="fig-metabolism-details" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-metabolism-details-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-metabolism-details">flowchart LR
+    classDef icon shape:rounded,fill:#F4F4E7,stroke:#F4F4E7,font-size:28px;
+    classDef text shape:rounded,fill:#F4F4E7,stroke:#F4F4E7;
+    classDef empty height:0,width:0;
+
+    air(fa:fa-wind):::icon
+    h20(fa:fa-water):::icon
+    food(fa:fa-pizza-slice):::icon
+    air --&gt; gases
+    h20 --&gt; h20pool
+    food --&gt; blocks
+    
+    subgraph life [Leben]
+        gases(Gelöste&lt;br&gt;Gase):::text
+        h20pool(Inneres&lt;br&gt;Wasser):::text
+        blocks(Nährstoffe):::text
+        metabol[Metabolismus]@{shape: circle}
+        struct[Struktur&lt;br&gt;&amp;&lt;br&gt;Prozesse]@{shape: rounded}
+
+        gases --&gt;|"$$\text{O}_2$$"| metabol --&gt;|"$$\text{CO}_2$$"| gases
+        h20pool --&gt;|wenig| metabol --&gt;|wenig| h20pool
+        blocks --&gt; metabol --&gt; struct
+    end
+    
+    waste(fa:fa-toilet-paper):::icon
+    gases --&gt; air
+    h20pool --&gt; h20
+    metabol --&gt; waste
+    
+    style air fill:#F4F4E7, stroke:#F4F4E7;
+    style gases fill:#E1E1D5, stroke:#E1E1D5;
+    style h20 fill:#F4F4E7, stroke:#F4F4E7;
+    style h20pool fill:#E1E1D5, stroke:#E1E1D5;
+    style food fill:#F4F4E7, stroke:#F4F4E7;
+    style blocks fill:#E1E1D5, stroke:#E1E1D5;
+    style waste fill:#F4F4E7, stroke:#F4F4E7;
+    style life rx:10, ry:10, fill:#E1E1D5, stroke:#E1E1D5;
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-metabolism-details-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;3: Einfaches Modell für den Stoffwechsel und das Fliessgleichgewicht lebender Systeme. Gase, Wasser und Nahrung kommt aus der Umgebung in das lebende System hinein und werden dort teilweise durch den Metabolismus zu noch kleineren Produkten abgebaut. Der Metabolismus ist jedoch auch für den Aufbau von Struktur verantwortlich. Der Abfall wird aus dem System entfernt. Das Fliessgleichgewicht entsteht innerhalb des Systems als Überlagerung von Aufnahme und Abgabe von Stoffen.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="metabolismus---motor-des-lebens" class="level3" data-number="2.3">
+<h3 data-number="2.3" class="anchored" data-anchor-id="metabolismus---motor-des-lebens"><span class="header-section-number">2.3</span> Metabolismus - Motor des Lebens</h3>
+<p>Das Leben zerkleinert die Nahrung bis sie in kleinste Moleküle vorliegt. Das ist so also würdest Du ein Glass kaputtschlagen und immer weiter zerkleinern bis Du nur noch Glasspulver vor Dir hast.</p>
+<p>Dann aber schafft das Leben aus diesen kleinsten Bestandteilen Großes: molekulare Maschinen, Informationsspeicher, Kraftwerke, Zellen, Gewebe, Knochen, Haut, ganze Organismen, den Amazonasregenwald, usw. Aber warte; das ist ja so, als ob sich das Glaspulver wieder zum Glas zusammensetzen würde. Und Du weißt, das ist unmöglich. Es war lange Zeit unerklärlich, wie das Leben das fertigbringt.</p>
+<div class="cell" data-fig-height="3" data-layout-align="default">
+<div class="cell-output-display">
+<div id="fig-katabol-anabol" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-katabol-anabol-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-katabol-anabol">flowchart LR
+    classDef icon shape:rounded,fill:#F4F4E7,stroke:#F4F4E7,font-size:24px;
+    classDef text shape:rounded,fill:#F4F4E7,stroke:#F4F4E7;
+    classDef empty height:0,width:0; 
+
+    circ[fa:fa-pizza-slice]:::icon
+    3small[fa:fa-ellipsis-vertical fa:fa-ellipsis-vertical fa:fa-ellipsis-vertical]:::icon
+    kat1[ ]:::empty
+    1small1[fa:fa-ellipsis-vertical]:::icon
+    1small2[fa:fa-ellipsis-vertical]:::icon
+    1small3[fa:fa-ellipsis-vertical]:::icon
+    ana[ ]:::empty
+    bone[fa:fa-bone]:::icon
+    
+    circ --&gt; 3small
+    3small --- kat1
+    kat1 --&gt; 1small1
+    kat1 --&gt; 1small2
+    kat1 --&gt; 1small3
+    1small1 --- ana
+    1small2 --- ana
+    1small3 --- ana
+    ana --&gt; bone
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-katabol-anabol-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;4: das Leben schafft das scheinbar Unmögliche. Zuerst zerkleinert es das Pizzastück bis auf einzelne Moleküle, um daraus Knochen entstehen zu lassen.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>Der Metabolismus besitzt zwei Seiten. Der chemische Abbau von Allem in kleinste Bestandteile wird <strong>Katabolismus</strong> genannt. Er ist zum Beispiel dafür verantwortlich, dass Glucose (<span class="math inline">\ce{C6H12O6}</span>) in noch kleinere Bestandteile zerlegt wird nach der Gleichung</p>
+<p><span class="math display">
+\ce{C6H12O6 + 6O2 -&gt; 6CO2 + 6H2O} + E.
+</span></p>
+<p>Und wie bei einer echten Verbrennung wird hier eine bestimmte Form von Energie <span class="math inline">E</span> freigesetzt. Diese wird jedoch nicht auf einen Schlag frei sondern in kleinere Portionen. Das ermöglicht die Speicherung sieser Energie und vor allem eine feine Kontrolle des Prozesses.</p>
+<p>Der <strong>Anabolismus</strong> ist der aufbauende Teil des Metabolismus. Aus kleinsten Bestandteilen schafft das Leben viel größere Strukturen; so groß, dass viele ohne Miksroskop sichtbar werden. Dafür wird Energie gebraucht.</p>
+<p>Der Motor des Lebens ist die Verbindung zwischen Katabolismus und Anabolismus. Das Leben hat es also geschafft, die zerstörerische Kraft des Abbaus für den Aufbau nutzbar zu machen.</p>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div id="fig-katabol-anabol-energy" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-katabol-anabol-energy-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-katabol-anabol-energy">flowchart LR
+    classDef icon shape:rounded,fill:#F4F4E7,stroke:#F4F4E7,font-size:30px;
+    classDef text shape:rounded,fill:#F4F4E7,stroke:#F4F4E7;
+    classDef empty height:0,width:0; 
+
+    circ[fa:fa-pizza-slice]:::icon
+    3small[fa:fa-ellipsis-vertical fa:fa-ellipsis-vertical fa:fa-ellipsis-vertical]:::icon
+    kat1[ ]:::empty
+    1small1[fa:fa-ellipsis-vertical]:::icon
+    1small2[fa:fa-ellipsis-vertical]:::icon
+    1small3[fa:fa-ellipsis-vertical]:::icon
+    ana[ ]:::empty
+    bone[fa:fa-bone]:::icon
+
+    square[fa:fa-cubes]:::icon
+    kat2[ ]:::empty
+    2small["$$\text{CO}_2 + \text{H}_2\text{O}$$"]:::text
+    
+    circ --&gt; 3small
+    3small --- kat1
+    kat1 --&gt; 1small1
+    kat1 --&gt; 1small2
+    kat1 --&gt; 1small3
+    1small1 --- ana
+    1small2 --- ana
+    1small3 --- ana
+    ana --&gt; bone
+
+    square --- kat2 
+    kat2 --&gt; 2small
+
+    kat2 --&gt;|$$E$$| ana
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-katabol-anabol-energy-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;5: Der katabole Pfad oben zerkleinert ddas Pizzastück, um daraus die Bausteine für den anabolen Pfad des Knochenbaus zu gewinnen. Das ist jedoch nur dann möglich, wenn der katabole Würfelzuckerabbau die notwendige Energie <span class="math inline">E</span> für den anabolen Knochenbau bereitstellt.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="fliessgleichgewicht" class="level3" data-number="2.4">
+<h3 data-number="2.4" class="anchored" data-anchor-id="fliessgleichgewicht"><span class="header-section-number">2.4</span> Fliessgleichgewicht</h3>
+<p>Ein einfaches Beispiel für ein Fliessgleichgewicht ist ein Waschbecken bei dem der Wasserhahn ständig läuft und der Abfluss nur halb geschlossen ist. Das Waschbecken füllt sich bis zu einer gewissen Höhe mit Wasser. Danach wird der Druck so groß, dass genauso viel Wasser aus dem Abfluss läuft wie aus dem Wasserhahn nachkommt.</p>
+<p>In <a href="#fig-metabolism-details" class="quarto-xref">Abbildung&nbsp;3</a> wird sehr deutlich, warum der Stoffwechsel in einem Fliessgleichgewicht abläuft. Der Metabolismus und andere Lebensvorgänge benötigen einen ständigen Einstrom von Stoffen und Elementen. Gleichzeitig müssen alle Abfallstoffe aus dem inneren Bereich nach außen geschafft werden, weil sie ansonsten die Lebensmaschine stören. Das Einstellen eines Gleichgewichts des Lebens mit einer Umgebung bedeutet <strong>Tod</strong>.</p>
+</section>
+</section>
+<section id="homöostase-und-abgrenzung" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="homöostase-und-abgrenzung"><span class="header-section-number">3</span> Homöostase und Abgrenzung</h2>
+<p>Damit der Metabolismus unter optimalen Bedingungen ablaufen kann, muss er vor äußeren, störenden Einflüssen geschützt werden. Das Leben muss sich von der unbelebten Welt trennen.</p>
+<div class="cell" data-fig-height="3" data-layout-align="default">
+<div class="cell-output-display">
+<div id="fig-homeostasis-cellularity" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-homeostasis-cellularity-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-homeostasis-cellularity">flowchart LR
+    classDef icon shape:rounded,fill:#F4F4E7,stroke:#F4F4E7,font-size:30px;
+    classDef text shape:rounded,fill:#F4F4E7,stroke:#F4F4E7;
+    classDef empty height:0,width:0;
+
+    Rein2(Rein):::text --&gt; Leben2((Leben))
+    Leben2 --&gt; Raus2(Raus):::text
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-homeostasis-cellularity-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;6: Damit die inneren Prozesse des Lebens möglichst störungsfrei ablaufen können, umschließt eine Membran ein lebendes System.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>Diese Abgrenzung ist für einzelne Zellen die Zellmembran, die aus Lipiden besteht. Lipide sind Fette und fettähnliche Stoffe. Diese Moleküle besitzen zwei Eigenschaften die räumlich getrennt sind: auf der einen Seite lieben sie Wasser und auf der anderen mögen sie es gar nicht. Dadurch orientieren sich Fette so, dass ihre wasserabweisenden Enden zusammenrücken. Nach außen befinden sich die wasserliebenden Enden. Bei einer Memrban kommen so zwei Molekülschichten zusammen, die im Inneren die wasserabweisenden Bereiche einschließen. Das stellt im Grunde genommen eine zweidimensionale Flüssigkeit dar.</p>
+<p>Die Abgrenzung von der Umgebung ermöglicht einige wichtige Funktionen:</p>
+<ol>
+<li>Zusammenhalt: ohne Abgrenzung gehen alle Nährstoffe und Bestandteile des Lebens in allen Himmelsrichtungen verloren.</li>
+<li><strong>Homöostase</strong>: ist die Aufrechterhaltung der inneren Bedingungen durch Kontrollmechanismen. Sie ist notwendig, weil die meisten Lebensvorgänge sehr abhängig von physikalischen und chemischen Faktoren wie Temperatur, Salzgehalt, Säuregehalt und andere Faktoren sind.</li>
+</ol>
+</section>
+<section id="verhalten" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="verhalten"><span class="header-section-number">4</span> Verhalten</h2>
+<p>Das Leben zeigt typische Reaktionen auf Belebtes und Unbelebtes. Die Gesamtheit dieser Reaktionen nennen wir <strong>Verhalten</strong>.</p>
+<p>In den allereinfachsten Fällen ist Verhalten die sichtbare Äußerung der Homöostase. Wenn die Homöostase es nicht mehr schafft die inneren Bedingungen zu kontrollieren, dann muß das Leben mit Bewegung, Suche, Flucht, Verfärbung, Wachstum, oder anderen Prozessen reagieren.</p>
+<p>Im positiven Sinn kann jedoch Verhalten auch zu einer Verbessung der inneren Bedingungen führen. Die Jagd greift bei vielen Tieren als Verhalten ein, wenn der Hunger kommt.</p>
+<div class="cell" data-fig-height="3" data-layout-align="default">
+<div class="cell-output-display">
+<div id="fig-behavior" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-behavior-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-behavior">flowchart TD
+    Bolt1@{shape: bolt} --&gt; Da@{shape: circ, label: "Leben"}
+    Bolt2@{shape: bolt} --&gt; Weg@{shape: circ, label: "...ist weg"}
+
+    style Weg fill:#F4F4E7,stroke:#F4F4E7;
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-behavior-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;7: Verhalten schützt das Leben oft dadurch, dass eine sichtbare Reaktion auf bedrohliche Reize erfolgt. Schlägt der Blitz irgendwo in der Nähe ein, ergreift das Tier die Flucht.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>Verhalten ist auf Sensoren angewiesen, die <strong>Reize</strong> aufnehmen und sie mithilfe von Informationsverarbeitung in eine entsprechende <strong>Reizreaktion</strong> umwandelt. Die Informationsverarbeitung erfolgt bei einfachem Leben auf molekularer Ebene. Höhere Organismen besitzen komplexe Systeme, die über größere Entfernung wirken; z.B. das Nervensystem.</p>
+<p>Reize sind diejenigen äußeren Faktoren, die durch geeignete <strong>Rezeptoren</strong><a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> registriert werden. Die Farbe Rot ist für uns höhere Primaten<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> ein Reiz, jedoch nicht für viele andere Säugetiere wie zum Beispiel den Hund. Rotes Licht existiert physikalisch unabhängig vom Leben aber es spielt als Reiz nur für wenige Tiere eine Rolle, die die geeigneten Rezeptoren besitzen.</p>
+<p>Verhalten hilft über diese einfache Funktionen auch in anderen Bereichen. Zum Beispiel ist das Auffinden eines Paarungspartners bei der sexuellen Fortpflanzung ein Prozess, der ebenfalls vom Verhalten gesteuert werden kann. Das ist wiederum ein Ausdruck der inneren Lebensprozesse eines Organismus, der die genetische Information weitergeben will.</p>
+</section>
+<section id="bauplan-und-funktionsplan" class="level2" data-number="5">
+<h2 data-number="5" class="anchored" data-anchor-id="bauplan-und-funktionsplan"><span class="header-section-number">5</span> Bauplan und Funktionsplan</h2>
+<p>Bisher haben wir bereits eine sehenswerte Menge von Lebensprozessen kennengelernt. Dazu kommt noch das Sichtbare eines Organismus: Größe, Anzahl der Beine, Farbe, Haare oder Nägel, Flügel, usw. Wie das Leben aussieht und funktioniert kann nicht vom Himmel fallen. Irgendwo muss festgehalten sein, wie das Leben das alles bewältigen kann. Und wenn aus Leben neues Leben entsteht, muss das neue Leben wissen wie es aussehen <em>und</em> funktionieren soll. Diese information wird als <strong>genetische Information</strong> bezeichnet.</p>
+<div class="cell" data-fig-height="3" data-layout-align="default">
+<div class="cell-output-display">
+<div id="fig-information" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-information-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-information">flowchart LR
+    Groß((Ich bin gewachsen)) -.-x Klein1(Klein) 
+    Groß --&gt; Klein2((Klein))
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-information-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;8: Aus einem ausgewachsenen Organismus entsteht neues Leben. Das neu entstandene darf sich aber nicht zu sehr von seinem Erzeuger unterscheiden.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>Die Art und Weise wie die genetische Information gespeichert und weitergegeben wird, steht nach neuestem Erkenntnissen am Anfang des Lebens auf unserem Planeten. Die genetische Information wird in unglaublich lange lineare Moleküle kodiert<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a>, die aus DNA<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a> bestehen. In Bakterien befindet sie sich lose innerhalb der Zelle; bei höheren Organismen liegt die DNA in einer hochkompimierten Form in einem Zellkern vor.</p>
+</section>
+<section id="reproduktion-und-vermehrung" class="level2" data-number="6">
+<h2 data-number="6" class="anchored" data-anchor-id="reproduktion-und-vermehrung"><span class="header-section-number">6</span> Reproduktion und Vermehrung</h2>
+<p>Aus Lebendigem entsteht Lebendiges. Dieser Vorgang heißt <strong>Reproduktion</strong> und ist einer der ätesten und kompliziertesten Vorgänge des Lebendigen. Reproduktion heißt, dass etwas was es bereits gibt wieder hergestellt wird. Eine Vermehrung tritt dann ein, wenn die Anzahl der Nachkommen die Anzahl der Erzeuger übersteigt.</p>
+<div class="cell" data-fig-height="3" data-layout-align="default">
+<div class="cell-output-display">
+<div id="fig-reproduction-sym" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-reproduction-sym-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-reproduction-sym">flowchart LR
+    Groß((Ich bin gewachsen)) --&gt; Klein1((Klein)) 
+    Groß --&gt; Klein2((Klein))
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-reproduction-sym-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;9: Aus einem ausgewachsenen Organismus enstehen durch Reproduktion zwei gleichgroße Tochterorganismen. Ihre Gesamtmasse entspricht der Massen des Erzeugers. Diese Reproduktion ist das Ergebnis einer symetrischen Teilung.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell" data-fig-height="3" data-layout-align="default">
+<div class="cell-output-display">
+<div id="fig-reproduction-asym" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-reproduction-asym-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-reproduction-asym">flowchart LR
+    Groß1((Ich bin gewachsen)) --&gt; Klein((Klein))
+    Groß1 --&gt; Groß2((Immer noch groß)) 
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-reproduction-asym-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;10: Aus einem ausgewachsenen Organismus ensteht durch Reproduktion ein Tochterorganismus, welches kleiner als der Erzeuger ist. Das erzeugende Wesen verliert aber nicht soviel Masse wie bei einer symetrischen Teilung. Hierbei handelt es sich um eine unsymetrische Teilung.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>Gleichgültig, ob die Reproduktion ungeschlechtlich oder geschlechtlich stattfindet, diese fundamentale Eigenschaft ist so alt wie die Anfänge des Lebens als die Erde noch eine Hölle war. Während dieser Zeit waren Lebewesen sehr einfach aufgebaut. Das heißt, unabhängig von allen philosophischen Gedanken, die sich der Mensch macht, dass die gesamten Struktur und Prozesse des Lebens einzig und alleine darauf abzielen, den Bau- und Funktionsplan des Lebens weiterzugeben. Das ist eine fundamentale Tatsache der Biologie.</p>
+</section>
+<section id="wachstum" class="level2" data-number="7">
+<h2 data-number="7" class="anchored" data-anchor-id="wachstum"><span class="header-section-number">7</span> Wachstum</h2>
+<p>Alles was lebendig ist muss wachsen. Das ist schon dadurch notwendig, da der Bau- und Funktionsplan des Lebens zumindest einmal kopiiert werden muss, damit der Tochterorganismus es erbt. Die DNA in ihrer hochkomprimierten Form stellt bereits einen erheblichen Masseanteil eines Organismus dar. Aber das trifft auch auf andere zellulären Strukturen zu wie das Zellskelett, die Mitochondrien, Vakuolen, usw.</p>
+<div class="cell" data-fig-height="3" data-layout-align="default">
+<div class="cell-output-display">
+<div id="fig-growth" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-growth-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-growth">flowchart LR
+    Klein((Klein)) --&gt; Groß((Ich bin gewachsen))
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-growth-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;11: Alle Lebewesen müssen zumindest in einer Lebensphase wachsen. Die Notwendigkeit der Reproduktion würde schon alleine reichen, um Wachstum zu erzwingen.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>Beim Wachstum wird ein Teil der Nährstoffe verwendet, um einerseits Struktur aufzubauen und andererseits, um die notwendige Energie bereitzustellen. Wenn Wachstum eintritt, ist der Anabolismus stärker als der Katabolismus. Das heißt, dass der aufbauende Stoffwechsel verstärkt wird und dass damit sich die Energiereserven des Organismus verkleinern.</p>
+</section>
+<section id="kurzfristige-und-langfristige-anpassung" class="level2" data-number="8">
+<h2 data-number="8" class="anchored" data-anchor-id="kurzfristige-und-langfristige-anpassung"><span class="header-section-number">8</span> Kurzfristige und langfristige Anpassung</h2>
+<p>Das Leben versucht, sich immer anzupassen. Das Leben findet einen Weg. Die Anpassung des Lebens an Veränderung kennt zwei Geschwindigkeiten.</p>
+<p>Die <strong>schnelle Anpassung</strong> beruht auf den Möglichkeiten, die der Bau- und Funktionsplan bietet. Das heißt, durch Regulation und Kontrolle hat das Leben Möglichkeiten, sich an kurzfristige Änderungen anzupassen. Dabei reagieren Lebewesen auf eine Veränderung nur solange wie diese wirkt. Ganz wichtig ist die Tatsache, dass diese Art der Anpassung <strong>individuell</strong> ist.</p>
+<div class="cell" data-fig-height="3" data-layout-align="default">
+<div class="cell-output-display">
+<div id="fig-adaptation" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-adaptation-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-adaptation">flowchart LR
+    Anfang1((Leben)) --&gt; Ende1@{shape: circ, label: "Leben"} 
+    Anfang2((Leben)) --&gt; Zwischen2@{shape: circ, label: "... ... ... ... ..."} --&gt; Ende2@{shape: rounded, label: "Leben"}
+
+    style Ende1 fill:#F4F4FF;
+    style Zwischen2 fill:#F4F4E7,stroke:#F4F4E7;
+    style Ende2 fill:#F4F4FF;
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-adaptation-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;12
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>Die <strong>langsame Anpassung</strong> beruht darauf, dass eine <strong>Population</strong> von Lebewesen sich über die Zeit verändert. Dabei wird der Bau- und Funktionsplan in <strong>zufälliger</strong> Richtung verändert. Die Auswahl der angepassten Individuen geschieht praktisch von selbst. Erfolgreiche Individuen haben nämlich eine größere Chance, durchschnittlich mehr Nachkommen zu produzieren als nicht angepasste Individuen. Dieser Vorgang heißt <strong>Evolution</strong> und die Art der Anpassung <strong>Adaptation</strong>.</p>
+</section>
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Fußnoten</h2>
+
+<ol>
+<li id="fn1"><p>Ionen sind positive geladene Atomkerne. In biologischen Systemen liegen Ionen immer in wässriger Phase vor. Zum Beispiel würde das zweifach positive geladene Magnesium als <span class="math inline">\ce{Mg^2+ (aq)}</span> geschrieben werden.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Rezeptoren sind biologische Sensoren. Das Wort <em>Sensor</em> ist nur für künstliche und technische Systeme vorbehalten. Wie alle Sensoren, stellen Rezeptoren Signaltransducer dar. Ein Signaltransducer übersetzt ein ankommendes Signal in eine andere physikalische Form um. Das Auge setzt übersetzt elektromagnetische Strahlung in elektrochemische Impulse um. Ein digitaler Kamerasensor setzt elektromagnetische Strahlung in elektrisch digitale Signale um.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>Primaten sind eine Säugetiergruppe, die im Laufe der Evolution relativ große Gehirne auf Kosten des Geruchsinns entwickelt haben. Dazu gehören alle primitiven und höheren Affen als auch der Mensch.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>Zum Beipiel ist die Gesamtlänge der männlichen menschlichen DNA 2.05 m; bei Frauen erreicht sie über 2.08 m. Trotz dieser beachtlichen Länge, wird die Information innerhalb eines mikroslopischen Bereichs komprimiert.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p><strong>D</strong>esoxyribo<strong>n</strong>ucleic <strong>a</strong>cid ist das englische Wort für die Desoxyribonukleinsäure, oder DNS auf deutsch.<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Kopiert");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Kopiert");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
