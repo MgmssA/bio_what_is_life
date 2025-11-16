@@ -65,7 +65,7 @@ Aus der Luft benötigen wir den Sauerstoff $\ce{O2}$ zur Energiegewinnung. Aber 
 #. Baustoff,
 #. Essentiell für den Metabolismus. 
 
-Die Stoffe, die wir aus der Nahrung extrahieren heißen **Nährstoffe**. Die **essentiellen** Nährstoffe; das sind diejenigen Nährstoffe, die unser Körper nicht selbst synthetisieren kann. Der Begriff *Nährstoff* ist jedoch etwas ungenau. Zum Beispiel gelten einige Ionen^[Ionen sind positive geladene Atomkerne. In biologischen Systemen liegen Ionen immer in wässriger Phase vor. Zum Beispiel würde das zweifach positive geladene Magnesium als $\ce{Mg^2+ (aq)}$ geschrieben werden.] als Makronährstoffe und Mikronährstoffe, obwohl sie nicht durch den Stoffwechsel verändern sondern nur teilnehmen.
+Die Stoffe, die wir aus der Nahrung extrahieren heißen **Nährstoffe**. Die **essentiellen** Nährstoffe; das sind diejenigen Nährstoffe, die unser Körper nicht selbst synthetisieren kann. Der Begriff *Nährstoff* ist jedoch etwas ungenau. Zum Beispiel gelten einige Ionen^[Ionen sind positiv oder negativ geladene Atomkerne oder Moleküle. In biologischen Systemen liegen Ionen immer in wässriger Phase vor. Zum Beispiel würde das zweifach positive geladene Magnesium als $\ce{Mg^2+ (aq)}$ geschrieben werden.] als Makronährstoffe und Mikronährstoffe, obwohl sie nicht durch den Stoffwechsel verändern sondern nur teilnehmen.
 
 Alle Pflanzen, alle pflanzenartigen und alle pflanzenähnlichen Organismen synthetisieren ihre eigene Nahrung durch die **Photosynthese**. Sie synthetisieren allerdings nur den Teil, der zur Energiegewinnung und als Baustoff genutzt wird. Die essentiellen Nährstoffe wie Ionen werden aus der Erde durch Wurzeln oder andere Organe aufgenommen.
 
@@ -232,7 +232,7 @@ Diese Abgrenzung ist für einzelne Zellen die Zellmembran, die aus Lipiden beste
 Die Abgrenzung von der Umgebung ermöglicht einige wichtige Funktionen:
 
 #. Zusammenhalt: ohne Abgrenzung gehen alle Nährstoffe und Bestandteile des Lebens in allen Himmelsrichtungen verloren.
-#. **Homöostase**: ist die Aufrechterhaltung der inneren Bedingungen durch Kontrollmechanismen. Sie ist notwendig, weil die meisten Lebensvorgänge sehr abhängig von physikalischen und chemischen Faktoren wie Temperatur, Salzgehalt, Säuregehalt und andere Faktoren sind.
+#. **Homöostase**: die Aufrechterhaltung der inneren Bedingungen durch Kontrollmechanismen. Sie ist notwendig, weil die meisten Lebensvorgänge sehr abhängig von physikalischen und chemischen Faktoren wie Temperatur, Salzgehalt, Säuregehalt und andere Faktoren sind.
 
 ## Verhalten
 
@@ -272,7 +272,7 @@ flowchart LR
     Groß --> Klein2((Klein))
 ```
 
-Die Art und Weise wie die genetische Information gespeichert und weitergegeben wird, steht nach neuestem Erkenntnissen am Anfang des Lebens auf unserem Planeten. Die genetische Information wird in unglaublich lange lineare Moleküle kodiert^[Zum Beipiel ist die Gesamtlänge der männlichen menschlichen DNA 2.05 m; bei Frauen erreicht sie über 2.08 m. Trotz dieser beachtlichen Länge, wird die Information innerhalb eines mikroslopischen Bereichs komprimiert.], die aus DNA^[**D**esoxyribo**n**ucleic **a**cid ist das englische Wort für die Desoxyribonukleinsäure, oder DNS auf deutsch.] bestehen. In Bakterien befindet sie sich lose innerhalb der Zelle; bei höheren Organismen liegt die DNA in einer hochkompimierten Form in einem Zellkern vor. 
+Die Art und Weise wie die genetische Information gespeichert und weitergegeben wird, steht nach neuestem Erkenntnissen am Anfang des Lebens auf unserem Planeten. Die genetische Information wird in unglaublich lange kreisförmige oder lineare Moleküle gespeichert^[Zum Beipiel ist die Gesamtlänge der männlichen menschlichen DNA 2.05 m; bei Frauen erreicht sie über 2.08 m. Trotz dieser beachtlichen Länge, wird die Information innerhalb eines mikroslopischen Bereichs komprimiert.], die aus DNA^[**D**esoxyribo**n**ucleic **a**cid ist das englische Wort für die Desoxyribonukleinsäure, oder DNS auf deutsch.] bestehen. In Bakterien befindet sie sich lose innerhalb der Zelle; bei höheren Organismen liegt die DNA in einer hoch kompimierten Form in einem Zellkern vor. 
 
 ## Reproduktion und Vermehrung
 
@@ -300,7 +300,7 @@ Gleichgültig, ob die Reproduktion ungeschlechtlich oder geschlechtlich stattfin
 
 ## Wachstum
 
-Alles was lebendig ist muss wachsen. Das ist schon dadurch notwendig, da der Bau- und Funktionsplan des Lebens zumindest einmal kopiiert werden muss, damit der Tochterorganismus es erbt. Die DNA in ihrer hochkomprimierten Form stellt bereits einen erheblichen Masseanteil eines Organismus dar. Aber das trifft auch auf andere zellulären Strukturen zu wie das Zellskelett, die Mitochondrien, Vakuolen, usw.  
+Alles was lebendig ist muss wachsen. Das ist schon dadurch notwendig, da der Bau- und Funkstionsplan des Lebens zumindest einmal kopiert werden muss, damit der Tochterorganismus es erbt. Die DNA in ihrer hochkomprimierten Form stellt bereits einen erheblichen Masseanteil eines Organismus dar. Aber das trifft auch auf andere zellulären Strukturen zu wie das Zellskelett, die Mitochondrien, Vakuolen, usw.  
 
 ```{mermaid}
 %%| fig-height: 3
