@@ -161,7 +161,7 @@ $$
 \ce{C6H12O6 + 6O2 -> 6CO2 + 6H2O} + E.
 $$
 
-Und wie bei einer echten Verbrennung wird hier eine bestimmte Form von Energie $E$ freigesetzt. Diese wird jedoch nicht auf einen Schlag frei sondern in kleinere Portionen. Das ermöglicht die Speicherung sieser Energie und vor allem eine feine Kontrolle des Prozesses. 
+Und wie bei einer echten Verbrennung wird hier eine bestimmte Form von Energie $E$ freigesetzt. Diese wird jedoch nicht auf einen Schlag frei sondern in kleinere Portionen. Das ermöglicht die Speicherung dieser Energie und vor allem eine feine Kontrolle des Prozesses. 
 
 Der **Anabolismus** ist der aufbauende Teil des Metabolismus. Aus kleinsten Bestandteilen schafft das Leben viel größere Strukturen; so groß, dass viele ohne Miksroskop sichtbar werden. Dafür wird Energie gebraucht.
 
@@ -169,7 +169,7 @@ Der Motor des Lebens ist die Verbindung zwischen Katabolismus und Anabolismus. D
 
 ```{mermaid}
 %%| label: fig-katabol-anabol-energy
-%%| fig-cap: Der katabole Pfad oben zerkleinert ddas Pizzastück, um daraus die Bausteine für den anabolen Pfad des Knochenbaus zu gewinnen. Das ist jedoch nur dann möglich, wenn der katabole Würfelzuckerabbau die notwendige Energie $E$ für den anabolen Knochenbau bereitstellt. 
+%%| fig-cap: Der katabole Pfad oben zerkleinert das Pizzastück, um daraus die Bausteine für den anabolen Pfad des Knochenbaus zu gewinnen. Das ist jedoch nur dann möglich, wenn der katabole Würfelzuckerabbau die notwendige Energie $E$ für den anabolen Knochenbau bereitstellt. 
 flowchart LR
     classDef icon shape:rounded,fill:#F4F4E7,stroke:#F4F4E7,font-size:30px;
     classDef text shape:rounded,fill:#F4F4E7,stroke:#F4F4E7;
