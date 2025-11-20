@@ -227,7 +227,7 @@ flowchart LR
     Leben2 --> Raus2(Raus):::text
 ```
 
-Diese Abgrenzung ist für einzelne Zellen die Zellmembran, die aus Lipiden besteht. Lipide sind Fette und fettähnliche Stoffe. Diese Moleküle besitzen zwei Eigenschaften die räumlich getrennt sind: auf der einen Seite lieben sie Wasser und auf der anderen mögen sie es gar nicht. Dadurch orientieren sich Fette so, dass ihre wasserabweisenden Enden zusammenrücken. Nach außen befinden sich die wasserliebenden Enden. Bei einer Memrban kommen so zwei Molekülschichten zusammen, die im Inneren die wasserabweisenden Bereiche einschließen. Das stellt im Grunde genommen eine zweidimensionale Flüssigkeit dar.
+Diese Abgrenzung ist für einzelne Zellen die Zellmembran, die aus Lipiden besteht. Lipide sind Fette und fettähnliche Stoffe. Diese Moleküle besitzen zwei Eigenschaften die räumlich getrennt sind: auf der einen Seite lieben sie Wasser und auf der anderen mögen sie es gar nicht. Dadurch orientieren sich Fette so, dass ihre wasserabweisenden Enden zusammenrücken. Nach außen befinden sich die wasserliebenden Enden. Bei einer Membran kommen so zwei Molekülschichten zusammen, die im Inneren die wasserabweisenden Bereiche einschließen. Das stellt im Grunde genommen eine zweidimensionale Flüssigkeit dar.
 
 Die Abgrenzung von der Umgebung ermöglicht einige wichtige Funktionen:
 
